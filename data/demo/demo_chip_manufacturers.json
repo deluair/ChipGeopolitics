@@ -1,0 +1,702 @@
+[
+  {
+    "name": "ChipMfg_1",
+    "size": "CompanySize.MEDIUM",
+    "primary_region": "Taiwan",
+    "foundry_type": "pure-play",
+    "process_nodes": [
+      "40nm",
+      "28nm",
+      "16nm",
+      "10nm",
+      "7nm"
+    ],
+    "monthly_capacity": 44121,
+    "capacity_utilization_target": 0.9425617226114837,
+    "fab_locations": [
+      "Taiwan"
+    ],
+    "market_share": 0.04561055135563666,
+    "customer_concentration": 0.47339405167142784,
+    "technology_leadership_score": 0.5818181818181818,
+    "annual_revenue": 6.961060782412294,
+    "capex_intensity": 0.20547623659622652,
+    "gross_margin": 0.30643634791712837,
+    "r_and_d_intensity": 0.15882872883979696,
+    "government_support_level": 0.820949686263236,
+    "export_dependency": 0.5120113368156317,
+    "geopolitical_risk_exposure": 0.8240867338446303,
+    "yield_rates": {
+      "40nm": 0.8445879419759247,
+      "28nm": 0.8131000336189914,
+      "16nm": 0.7687745470682983,
+      "10nm": 0.8626551342261779,
+      "7nm": 0.7774363799457578
+    },
+    "technology_roadmap_aggressiveness": 0.8963311075254341,
+    "supply_chain_diversification": 0.34871871972985974
+  },
+  {
+    "name": "ChipMfg_2",
+    "size": "CompanySize.MEDIUM",
+    "primary_region": "Taiwan",
+    "foundry_type": "specialized",
+    "process_nodes": [
+      "65nm",
+      "40nm",
+      "28nm",
+      "16nm"
+    ],
+    "monthly_capacity": 14158,
+    "capacity_utilization_target": 0.8589484173468289,
+    "fab_locations": [
+      "Taiwan"
+    ],
+    "market_share": 0.04316656882826058,
+    "customer_concentration": 0.5414488814994487,
+    "technology_leadership_score": 0.42727272727272725,
+    "annual_revenue": 2.5080946367200108,
+    "capex_intensity": 0.15736437352719826,
+    "gross_margin": 0.29015563564019,
+    "r_and_d_intensity": 0.08232423402058954,
+    "government_support_level": 0.6902654131433342,
+    "export_dependency": 0.3452154362114774,
+    "geopolitical_risk_exposure": 0.9342456918007515,
+    "yield_rates": {
+      "65nm": 0.9692874767260269,
+      "40nm": 0.8645012623922228,
+      "28nm": 0.8267980314597303,
+      "16nm": 0.8284102398575228
+    },
+    "technology_roadmap_aggressiveness": 0.7459740584578477,
+    "supply_chain_diversification": 0.7438110314082141
+  },
+  {
+    "name": "ChipMfg_3",
+    "size": "CompanySize.SMALL",
+    "primary_region": "Taiwan",
+    "foundry_type": "pure-play",
+    "process_nodes": [
+      "28nm",
+      "16nm"
+    ],
+    "monthly_capacity": 4419,
+    "capacity_utilization_target": 0.8403008723037961,
+    "fab_locations": [
+      "Taiwan"
+    ],
+    "market_share": 0.0011996626782727147,
+    "customer_concentration": 0.49889911198753584,
+    "technology_leadership_score": 0.37272727272727274,
+    "annual_revenue": 1.2143160451835213,
+    "capex_intensity": 0.31627429801250023,
+    "gross_margin": 0.34233317193131485,
+    "r_and_d_intensity": 0.2187855749862206,
+    "government_support_level": 0.8494409287249829,
+    "export_dependency": 0.8807842592638939,
+    "geopolitical_risk_exposure": 0.8436741388539637,
+    "yield_rates": {
+      "28nm": 0.809047314305297,
+      "16nm": 0.8304338007790716
+    },
+    "technology_roadmap_aggressiveness": 0.7473747824821937,
+    "supply_chain_diversification": 0.5561139533526538
+  },
+  {
+    "name": "ChipMfg_4",
+    "size": "CompanySize.SMALL",
+    "primary_region": "Taiwan",
+    "foundry_type": "integrated",
+    "process_nodes": [
+      "65nm",
+      "40nm"
+    ],
+    "monthly_capacity": 8648,
+    "capacity_utilization_target": 0.9175479519111714,
+    "fab_locations": [
+      "Taiwan"
+    ],
+    "market_share": 0.004568885040891432,
+    "customer_concentration": 0.5732520201367242,
+    "technology_leadership_score": 0.24545454545454543,
+    "annual_revenue": 1.7935455631201178,
+    "capex_intensity": 0.3399041247315284,
+    "gross_margin": 0.29412204427871136,
+    "r_and_d_intensity": 0.237519896277454,
+    "government_support_level": 0.9718599374013687,
+    "export_dependency": 0.595269775847723,
+    "geopolitical_risk_exposure": 0.8718614893448914,
+    "yield_rates": {
+      "65nm": 0.8979331819195157,
+      "40nm": 0.8861902682885939
+    },
+    "technology_roadmap_aggressiveness": 0.09799926458993052,
+    "supply_chain_diversification": 0.6083413801668794
+  },
+  {
+    "name": "ChipMfg_5",
+    "size": "CompanySize.SMALL",
+    "primary_region": "Japan",
+    "foundry_type": "specialized",
+    "process_nodes": [
+      "65nm",
+      "40nm"
+    ],
+    "monthly_capacity": 8570,
+    "capacity_utilization_target": 0.9232685955266673,
+    "fab_locations": [
+      "Japan"
+    ],
+    "market_share": 0.004105743650401481,
+    "customer_concentration": 0.40857152868961016,
+    "technology_leadership_score": 0.24545454545454543,
+    "annual_revenue": 0.5477070222277477,
+    "capex_intensity": 0.2597430618414817,
+    "gross_margin": 0.4103270511197569,
+    "r_and_d_intensity": 0.14051855232623764,
+    "government_support_level": 0.47815103587134145,
+    "export_dependency": 0.35537435173724763,
+    "geopolitical_risk_exposure": 0.28396749747306943,
+    "yield_rates": {
+      "65nm": 0.873120371920012,
+      "40nm": 0.844398250783388
+    },
+    "technology_roadmap_aggressiveness": 0.8001914323411384,
+    "supply_chain_diversification": 0.411722776742027
+  },
+  {
+    "name": "ChipMfg_6",
+    "size": "CompanySize.SMALL",
+    "primary_region": "China",
+    "foundry_type": "pure-play",
+    "process_nodes": [
+      "10nm",
+      "7nm",
+      "5nm"
+    ],
+    "monthly_capacity": 7506,
+    "capacity_utilization_target": 0.8798170227897973,
+    "fab_locations": [
+      "China"
+    ],
+    "market_share": 0.0019645481020579844,
+    "customer_concentration": 0.46844742009407286,
+    "technology_leadership_score": 0.5909090909090908,
+    "annual_revenue": 1.2989258996825348,
+    "capex_intensity": 0.19849410072694593,
+    "gross_margin": 0.3307729692848143,
+    "r_and_d_intensity": 0.14413830772778585,
+    "government_support_level": 0.9471036831418022,
+    "export_dependency": 0.3120427186666358,
+    "geopolitical_risk_exposure": 0.693873736705341,
+    "yield_rates": {
+      "10nm": 0.7737176711582866,
+      "7nm": 0.7654626294243135,
+      "5nm": 0.775160634985289
+    },
+    "technology_roadmap_aggressiveness": 0.16246329478267837,
+    "supply_chain_diversification": 0.5245465916867273
+  },
+  {
+    "name": "ChipMfg_7",
+    "size": "CompanySize.MEDIUM",
+    "primary_region": "Taiwan",
+    "foundry_type": "integrated",
+    "process_nodes": [
+      "40nm",
+      "28nm",
+      "16nm"
+    ],
+    "monthly_capacity": 44529,
+    "capacity_utilization_target": 0.8366529733196982,
+    "fab_locations": [
+      "Taiwan"
+    ],
+    "market_share": 0.02992990791395761,
+    "customer_concentration": 0.39820908876854844,
+    "technology_leadership_score": 0.39999999999999997,
+    "annual_revenue": 9.469534590078997,
+    "capex_intensity": 0.15150687262681495,
+    "gross_margin": 0.31759983931375846,
+    "r_and_d_intensity": 0.1421106593445898,
+    "government_support_level": 0.9188801007652206,
+    "export_dependency": 0.3527325747240863,
+    "geopolitical_risk_exposure": 0.8958691569419227,
+    "yield_rates": {
+      "40nm": 0.825117608115405,
+      "28nm": 0.7971281782398529,
+      "16nm": 0.7444963770881468
+    },
+    "technology_roadmap_aggressiveness": 0.6109446709620708,
+    "supply_chain_diversification": 0.6722733751487976
+  },
+  {
+    "name": "ChipMfg_8",
+    "size": "CompanySize.LARGE",
+    "primary_region": "North America",
+    "foundry_type": "integrated",
+    "process_nodes": [
+      "65nm",
+      "40nm",
+      "28nm",
+      "16nm",
+      "10nm"
+    ],
+    "monthly_capacity": 92533,
+    "capacity_utilization_target": 0.8871857332133919,
+    "fab_locations": [
+      "North America",
+      "Asia Pacific"
+    ],
+    "market_share": 0.08692304815098961,
+    "customer_concentration": 0.47256078333145984,
+    "technology_leadership_score": 0.5181818181818181,
+    "annual_revenue": 20.972062358763065,
+    "capex_intensity": 0.25978439597779546,
+    "gross_margin": 0.3105191386990708,
+    "r_and_d_intensity": 0.19637716313957165,
+    "government_support_level": 0.4764204388001908,
+    "export_dependency": 0.3527208667455941,
+    "geopolitical_risk_exposure": 0.1928325963442563,
+    "yield_rates": {
+      "65nm": 0.8499698979471227,
+      "40nm": 0.9001130006737004,
+      "28nm": 0.8517021233185411,
+      "16nm": 0.8990861467958053,
+      "10nm": 0.8357382866486724
+    },
+    "technology_roadmap_aggressiveness": 0.3205755027595359,
+    "supply_chain_diversification": 0.3227913484473958
+  },
+  {
+    "name": "ChipMfg_9",
+    "size": "CompanySize.MEDIUM",
+    "primary_region": "Europe",
+    "foundry_type": "pure-play",
+    "process_nodes": [
+      "65nm",
+      "40nm",
+      "28nm",
+      "16nm",
+      "10nm"
+    ],
+    "monthly_capacity": 31204,
+    "capacity_utilization_target": 0.8279607480182216,
+    "fab_locations": [
+      "Europe"
+    ],
+    "market_share": 0.01942766984259999,
+    "customer_concentration": 0.5802551382321064,
+    "technology_leadership_score": 0.5181818181818181,
+    "annual_revenue": 9.262929043700128,
+    "capex_intensity": 0.21323931645929892,
+    "gross_margin": 0.42649200273851706,
+    "r_and_d_intensity": 0.1961069507809125,
+    "government_support_level": 0.6772377986977596,
+    "export_dependency": 0.8398004671753039,
+    "geopolitical_risk_exposure": 0.2601626609823051,
+    "yield_rates": {
+      "65nm": 0.8882283411868501,
+      "40nm": 0.8971469900254292,
+      "28nm": 0.8657736798006296,
+      "16nm": 0.8517787281762697,
+      "10nm": 0.8182619713146846
+    },
+    "technology_roadmap_aggressiveness": 0.2994265644271347,
+    "supply_chain_diversification": 0.40231198032993654
+  },
+  {
+    "name": "ChipMfg_10",
+    "size": "CompanySize.MEDIUM",
+    "primary_region": "South Korea",
+    "foundry_type": "pure-play",
+    "process_nodes": [
+      "65nm",
+      "40nm",
+      "28nm",
+      "16nm",
+      "10nm"
+    ],
+    "monthly_capacity": 35053,
+    "capacity_utilization_target": 0.9340838874576436,
+    "fab_locations": [
+      "South Korea"
+    ],
+    "market_share": 0.041543888448981235,
+    "customer_concentration": 0.2910049278396507,
+    "technology_leadership_score": 0.5181818181818181,
+    "annual_revenue": 4.493776542364386,
+    "capex_intensity": 0.19969782796289315,
+    "gross_margin": 0.4731838877718031,
+    "r_and_d_intensity": 0.0857005139050825,
+    "government_support_level": 0.8054395215849114,
+    "export_dependency": 0.6419338109227899,
+    "geopolitical_risk_exposure": 0.6478979825746392,
+    "yield_rates": {
+      "65nm": 0.9561906484388728,
+      "40nm": 0.8241386359574051,
+      "28nm": 0.7968151461568876,
+      "16nm": 0.8392666122551746,
+      "10nm": 0.785726428839218
+    },
+    "technology_roadmap_aggressiveness": 0.3514232693476926,
+    "supply_chain_diversification": 0.20186771465649309
+  },
+  {
+    "name": "ChipMfg_11",
+    "size": "CompanySize.MEGA",
+    "primary_region": "Japan",
+    "foundry_type": "integrated",
+    "process_nodes": [
+      "65nm",
+      "40nm",
+      "28nm",
+      "16nm",
+      "10nm",
+      "7nm",
+      "5nm",
+      "3nm",
+      "2nm"
+    ],
+    "monthly_capacity": 306988,
+    "capacity_utilization_target": 0.8208674291214593,
+    "fab_locations": [
+      "Japan",
+      "Taiwan",
+      "Europe",
+      "China"
+    ],
+    "market_share": 0.1755531660562999,
+    "customer_concentration": 0.7512503133564481,
+    "technology_leadership_score": 0.8818181818181818,
+    "annual_revenue": 69.50423185620434,
+    "capex_intensity": 0.1546045209575275,
+    "gross_margin": 0.44541016329647387,
+    "r_and_d_intensity": 0.21111193364835545,
+    "government_support_level": 0.5370128354379218,
+    "export_dependency": 0.34639263929327235,
+    "geopolitical_risk_exposure": 0.38165308464035363,
+    "yield_rates": {
+      "65nm": 0.9441324178305516,
+      "40nm": 0.9272805206129089,
+      "28nm": 0.8588176831771582,
+      "16nm": 0.8080377376066328,
+      "10nm": 0.8026848046171721,
+      "7nm": 0.7387436973973049,
+      "5nm": 0.659207979644637,
+      "3nm": 0.745229883343287,
+      "2nm": 0.6022145048555729
+    },
+    "technology_roadmap_aggressiveness": 0.4701298340984399,
+    "supply_chain_diversification": 0.2974235924901711
+  },
+  {
+    "name": "ChipMfg_12",
+    "size": "CompanySize.MEDIUM",
+    "primary_region": "Taiwan",
+    "foundry_type": "pure-play",
+    "process_nodes": [
+      "180nm",
+      "90nm",
+      "65nm"
+    ],
+    "monthly_capacity": 44393,
+    "capacity_utilization_target": 0.937978342461914,
+    "fab_locations": [
+      "Taiwan"
+    ],
+    "market_share": 0.023853839774638452,
+    "customer_concentration": 0.40817192113773665,
+    "technology_leadership_score": 0.20909090909090905,
+    "annual_revenue": 7.900009984877987,
+    "capex_intensity": 0.2404435881779614,
+    "gross_margin": 0.3173814468819946,
+    "r_and_d_intensity": 0.15691471774255789,
+    "government_support_level": 0.7052460212714088,
+    "export_dependency": 0.3845142122278799,
+    "geopolitical_risk_exposure": 0.8993346545368763,
+    "yield_rates": {
+      "180nm": 0.9737659430106153,
+      "90nm": 0.9886692037818112,
+      "65nm": 0.8849537105357907
+    },
+    "technology_roadmap_aggressiveness": 0.25638431039641607,
+    "supply_chain_diversification": 0.5486654537345664
+  },
+  {
+    "name": "ChipMfg_13",
+    "size": "CompanySize.MEDIUM",
+    "primary_region": "South Korea",
+    "foundry_type": "specialized",
+    "process_nodes": [
+      "180nm",
+      "90nm",
+      "65nm"
+    ],
+    "monthly_capacity": 43719,
+    "capacity_utilization_target": 0.9347081434161071,
+    "fab_locations": [
+      "South Korea"
+    ],
+    "market_share": 0.018205585619280287,
+    "customer_concentration": 0.31441263239819994,
+    "technology_leadership_score": 0.20909090909090905,
+    "annual_revenue": 2.292397342784759,
+    "capex_intensity": 0.24441338902199983,
+    "gross_margin": 0.41945233997878495,
+    "r_and_d_intensity": 0.0911704687028199,
+    "government_support_level": 0.6745022782579144,
+    "export_dependency": 0.614634161596548,
+    "geopolitical_risk_exposure": 0.7503992988582688,
+    "yield_rates": {
+      "180nm": 0.8946737045629164,
+      "90nm": 0.8545920925502738,
+      "65nm": 0.7998918614598441
+    },
+    "technology_roadmap_aggressiveness": 0.2406232451955516,
+    "supply_chain_diversification": 0.4767052883488999
+  },
+  {
+    "name": "ChipMfg_14",
+    "size": "CompanySize.SMALL",
+    "primary_region": "South Korea",
+    "foundry_type": "pure-play",
+    "process_nodes": [
+      "90nm",
+      "65nm",
+      "40nm"
+    ],
+    "monthly_capacity": 9519,
+    "capacity_utilization_target": 0.8156162872976861,
+    "fab_locations": [
+      "South Korea"
+    ],
+    "market_share": 0.008199244768358704,
+    "customer_concentration": 0.30712679723260017,
+    "technology_leadership_score": 0.2727272727272727,
+    "annual_revenue": 1.479119161777812,
+    "capex_intensity": 0.19763655620934528,
+    "gross_margin": 0.27983241782780355,
+    "r_and_d_intensity": 0.1213392724699072,
+    "government_support_level": 0.5870948228782771,
+    "export_dependency": 0.7333601591133956,
+    "geopolitical_risk_exposure": 0.6234652005155086,
+    "yield_rates": {
+      "90nm": 0.9695111923846458,
+      "65nm": 0.9590323002042533,
+      "40nm": 0.9042654213839799
+    },
+    "technology_roadmap_aggressiveness": 0.7634244835044042,
+    "supply_chain_diversification": 0.4450746792794289
+  },
+  {
+    "name": "ChipMfg_15",
+    "size": "CompanySize.SMALL",
+    "primary_region": "South Korea",
+    "foundry_type": "specialized",
+    "process_nodes": [
+      "28nm",
+      "16nm"
+    ],
+    "monthly_capacity": 5566,
+    "capacity_utilization_target": 0.8051342166230794,
+    "fab_locations": [
+      "South Korea"
+    ],
+    "market_share": 0.008475890559087249,
+    "customer_concentration": 0.4071152869287654,
+    "technology_leadership_score": 0.37272727272727274,
+    "annual_revenue": 1.6607517848020104,
+    "capex_intensity": 0.22255157893318908,
+    "gross_margin": 0.5083204059924165,
+    "r_and_d_intensity": 0.11731678926376297,
+    "government_support_level": 0.559153870363644,
+    "export_dependency": 0.884728359119322,
+    "geopolitical_risk_exposure": 0.5644967672353276,
+    "yield_rates": {
+      "28nm": 0.7783534120898257,
+      "16nm": 0.7784191791092256
+    },
+    "technology_roadmap_aggressiveness": 0.5519455839044308,
+    "supply_chain_diversification": 0.24667787617629733
+  },
+  {
+    "name": "ChipMfg_16",
+    "size": "CompanySize.MEDIUM",
+    "primary_region": "South Korea",
+    "foundry_type": "integrated",
+    "process_nodes": [
+      "65nm",
+      "40nm",
+      "28nm"
+    ],
+    "monthly_capacity": 41889,
+    "capacity_utilization_target": 0.8794492517982622,
+    "fab_locations": [
+      "South Korea"
+    ],
+    "market_share": 0.04260217713609829,
+    "customer_concentration": 0.4988544521066035,
+    "technology_leadership_score": 0.3363636363636363,
+    "annual_revenue": 2.5374031993256807,
+    "capex_intensity": 0.23104961760553774,
+    "gross_margin": 0.39923946819396716,
+    "r_and_d_intensity": 0.20243443887749027,
+    "government_support_level": 0.6101200091757535,
+    "export_dependency": 0.7393107470754374,
+    "geopolitical_risk_exposure": 0.5090366102510028,
+    "yield_rates": {
+      "65nm": 0.8998395195976322,
+      "40nm": 0.9233330815207073,
+      "28nm": 0.8984803596323274
+    },
+    "technology_roadmap_aggressiveness": 0.8546240029830692,
+    "supply_chain_diversification": 0.2041393219583405
+  },
+  {
+    "name": "ChipMfg_17",
+    "size": "CompanySize.MEDIUM",
+    "primary_region": "Taiwan",
+    "foundry_type": "pure-play",
+    "process_nodes": [
+      "65nm",
+      "40nm",
+      "28nm",
+      "16nm"
+    ],
+    "monthly_capacity": 34762,
+    "capacity_utilization_target": 0.8445682573434763,
+    "fab_locations": [
+      "Taiwan"
+    ],
+    "market_share": 0.03265618561187589,
+    "customer_concentration": 0.48563024131945987,
+    "technology_leadership_score": 0.42727272727272725,
+    "annual_revenue": 7.309369322901185,
+    "capex_intensity": 0.33736594786495155,
+    "gross_margin": 0.46977162916307513,
+    "r_and_d_intensity": 0.11653986436042865,
+    "government_support_level": 0.7424362173762227,
+    "export_dependency": 0.5978197483207419,
+    "geopolitical_risk_exposure": 0.9122009814645362,
+    "yield_rates": {
+      "65nm": 0.9028149369230255,
+      "40nm": 0.8570547445732611,
+      "28nm": 0.8821298603219638,
+      "16nm": 0.8074056745691901
+    },
+    "technology_roadmap_aggressiveness": 0.08313498156758464,
+    "supply_chain_diversification": 0.4696785502975723
+  },
+  {
+    "name": "ChipMfg_18",
+    "size": "CompanySize.MEGA",
+    "primary_region": "Taiwan",
+    "foundry_type": "integrated",
+    "process_nodes": [
+      "40nm",
+      "28nm",
+      "16nm",
+      "10nm",
+      "7nm",
+      "5nm",
+      "3nm",
+      "2nm"
+    ],
+    "monthly_capacity": 167957,
+    "capacity_utilization_target": 0.895584736968423,
+    "fab_locations": [
+      "Taiwan",
+      "Japan",
+      "South Korea"
+    ],
+    "market_share": 0.39691700199916174,
+    "customer_concentration": 0.766435603811968,
+    "technology_leadership_score": 0.8545454545454545,
+    "annual_revenue": 31.971340568425294,
+    "capex_intensity": 0.2911150345031377,
+    "gross_margin": 0.5275744952246998,
+    "r_and_d_intensity": 0.11069780867164669,
+    "government_support_level": 0.881848473463854,
+    "export_dependency": 0.3203675871514793,
+    "geopolitical_risk_exposure": 0.9133847654246,
+    "yield_rates": {
+      "40nm": 0.8527925373478276,
+      "28nm": 0.8079641698102806,
+      "16nm": 0.8468232243307646,
+      "10nm": 0.8368707093850672,
+      "7nm": 0.7156605496276288,
+      "5nm": 0.734056525172927,
+      "3nm": 0.7687721062421492,
+      "2nm": 0.7117245374334759
+    },
+    "technology_roadmap_aggressiveness": 0.15401274461742243,
+    "supply_chain_diversification": 0.29079126372020125
+  },
+  {
+    "name": "ChipMfg_19",
+    "size": "CompanySize.SMALL",
+    "primary_region": "Taiwan",
+    "foundry_type": "pure-play",
+    "process_nodes": [
+      "10nm",
+      "7nm",
+      "5nm"
+    ],
+    "monthly_capacity": 5278,
+    "capacity_utilization_target": 0.8606728174522776,
+    "fab_locations": [
+      "Taiwan"
+    ],
+    "market_share": 0.006151849834901192,
+    "customer_concentration": 0.6823861876405386,
+    "technology_leadership_score": 0.5909090909090908,
+    "annual_revenue": 1.3076022355711814,
+    "capex_intensity": 0.2823310350161083,
+    "gross_margin": 0.47135673007195755,
+    "r_and_d_intensity": 0.1684285786793844,
+    "government_support_level": 0.9277926829238166,
+    "export_dependency": 0.5560902339929186,
+    "geopolitical_risk_exposure": 0.8781896101626058,
+    "yield_rates": {
+      "10nm": 0.7161056402454133,
+      "7nm": 0.7841425762667763,
+      "5nm": 0.6796939381068249
+    },
+    "technology_roadmap_aggressiveness": 0.7400521216550727,
+    "supply_chain_diversification": 0.05501842165407618
+  },
+  {
+    "name": "ChipMfg_20",
+    "size": "CompanySize.SMALL",
+    "primary_region": "South Korea",
+    "foundry_type": "pure-play",
+    "process_nodes": [
+      "180nm",
+      "90nm",
+      "65nm"
+    ],
+    "monthly_capacity": 4760,
+    "capacity_utilization_target": 0.8165711169697092,
+    "fab_locations": [
+      "South Korea"
+    ],
+    "market_share": 0.004191599418766989,
+    "customer_concentration": 0.37234339499244906,
+    "technology_leadership_score": 0.20909090909090905,
+    "annual_revenue": 0.9444621806839851,
+    "capex_intensity": 0.19672155020998197,
+    "gross_margin": 0.26262795689090856,
+    "r_and_d_intensity": 0.08303856890468035,
+    "government_support_level": 0.6965315112613218,
+    "export_dependency": 0.530595988295809,
+    "geopolitical_risk_exposure": 0.623421473253652,
+    "yield_rates": {
+      "180nm": 0.9174814527964986,
+      "90nm": 1.0096137441644957,
+      "65nm": 0.9038783534252947
+    },
+    "technology_roadmap_aggressiveness": 0.18882826240187606,
+    "supply_chain_diversification": 0.4881150093119766
+  }
+]

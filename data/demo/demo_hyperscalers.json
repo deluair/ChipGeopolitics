@@ -1,0 +1,319 @@
+[
+  {
+    "name": "Hyperscaler_1",
+    "size": "CompanySize.LARGE",
+    "annual_capex": 25.64847850358382,
+    "data_center_count": 71,
+    "global_regions": [
+      "Taiwan",
+      "Asia Pacific",
+      "North America",
+      "China"
+    ],
+    "primary_region": "Europe",
+    "chip_procurement_volume": 358795,
+    "cloud_market_share": 0.05230624250414158,
+    "ai_focus_level": 0.03181987920629685,
+    "risk_tolerance": 0.36147090390882086,
+    "geopolitical_stance": 0.5477290288091411,
+    "sustainability_commitment": 0.5763802324842165,
+    "annual_revenue": 107.81247538098742,
+    "profit_margin": 0.10319325044404284,
+    "debt_to_equity": 0.2616256779355043,
+    "cash_reserves": 29.794855607406085,
+    "vertical_integration_level": 0.34262392851413426,
+    "innovation_investment_ratio": 0.1269272729087889,
+    "strategic_partnerships": [
+      "cloud_alliance",
+      "sustainability"
+    ],
+    "competitive_advantages": [
+      "scale_economics",
+      "ai_expertise"
+    ]
+  },
+  {
+    "name": "Hyperscaler_2",
+    "size": "CompanySize.SMALL",
+    "annual_capex": 4.687496940092467,
+    "data_center_count": 12,
+    "global_regions": [
+      "Asia Pacific",
+      "North America"
+    ],
+    "primary_region": "Europe",
+    "chip_procurement_volume": 8629,
+    "cloud_market_share": 0.0027638457617723067,
+    "ai_focus_level": 0.53789069824926,
+    "risk_tolerance": 0.19215809699627076,
+    "geopolitical_stance": 0.7263833877414941,
+    "sustainability_commitment": 0.3974690584301637,
+    "annual_revenue": 7.361716094628554,
+    "profit_margin": 0.24580143360819745,
+    "debt_to_equity": 0.639889242680162,
+    "cash_reserves": 1.2034241914738584,
+    "vertical_integration_level": 0.26755326436227744,
+    "innovation_investment_ratio": 0.11970776298231792,
+    "strategic_partnerships": [
+      "cloud_alliance",
+      "supply_chain",
+      "ai_research"
+    ],
+    "competitive_advantages": [
+      "ecosystem_integration"
+    ]
+  },
+  {
+    "name": "Hyperscaler_3",
+    "size": "CompanySize.MEDIUM",
+    "annual_capex": 12.70967179954561,
+    "data_center_count": 48,
+    "global_regions": [
+      "Japan",
+      "China"
+    ],
+    "primary_region": "Asia Pacific",
+    "chip_procurement_volume": 10206,
+    "cloud_market_share": 0.027101640734341986,
+    "ai_focus_level": 0.5763284013658531,
+    "risk_tolerance": 0.2981214233362209,
+    "geopolitical_stance": 0.5854433454943163,
+    "sustainability_commitment": 0.6768885386241652,
+    "annual_revenue": 45.70235993959911,
+    "profit_margin": 0.20786844838313012,
+    "debt_to_equity": 0.6652081086148438,
+    "cash_reserves": 27.142510747896065,
+    "vertical_integration_level": 0.29685330414082756,
+    "innovation_investment_ratio": 0.17816177191069918,
+    "strategic_partnerships": [
+      "cloud_alliance"
+    ],
+    "competitive_advantages": [
+      "ecosystem_integration",
+      "global_presence"
+    ]
+  },
+  {
+    "name": "Hyperscaler_4",
+    "size": "CompanySize.MEDIUM",
+    "annual_capex": 14.717820827209607,
+    "data_center_count": 21,
+    "global_regions": [
+      "South Korea",
+      "Europe",
+      "Taiwan"
+    ],
+    "primary_region": "North America",
+    "chip_procurement_volume": 62733,
+    "cloud_market_share": 0.03785217091359153,
+    "ai_focus_level": 0.2711842064897434,
+    "risk_tolerance": 0.3264258871228379,
+    "geopolitical_stance": 0.6249770933939122,
+    "sustainability_commitment": 0.6763040102114478,
+    "annual_revenue": 19.686397531097036,
+    "profit_margin": 0.26062795127597915,
+    "debt_to_equity": 0.429210444112227,
+    "cash_reserves": 29.544136374608183,
+    "vertical_integration_level": 0.6453980629792121,
+    "innovation_investment_ratio": 0.14098385320888623,
+    "strategic_partnerships": [
+      "cloud_alliance"
+    ],
+    "competitive_advantages": [
+      "ecosystem_integration"
+    ]
+  },
+  {
+    "name": "Hyperscaler_5",
+    "size": "CompanySize.MEGA",
+    "annual_capex": 60.45358103688568,
+    "data_center_count": 497,
+    "global_regions": [
+      "South Korea",
+      "China",
+      "Taiwan",
+      "Asia Pacific",
+      "North America",
+      "Europe",
+      "Japan"
+    ],
+    "primary_region": "Asia Pacific",
+    "chip_procurement_volume": 1054594,
+    "cloud_market_share": 0.2071375054493249,
+    "ai_focus_level": 0.35467101792167766,
+    "risk_tolerance": 0.3065125406636065,
+    "geopolitical_stance": 0.536933922951616,
+    "sustainability_commitment": 0.8200273540257592,
+    "annual_revenue": 498.3372387832462,
+    "profit_margin": 0.1351850505354691,
+    "debt_to_equity": 0.11265275453086461,
+    "cash_reserves": 111.43140015710105,
+    "vertical_integration_level": 0.03649641832558919,
+    "innovation_investment_ratio": 0.11696729502228671,
+    "strategic_partnerships": [
+      "supply_chain",
+      "cloud_alliance",
+      "ai_research"
+    ],
+    "competitive_advantages": [
+      "scale_economics",
+      "ai_expertise"
+    ]
+  },
+  {
+    "name": "Hyperscaler_6",
+    "size": "CompanySize.MEGA",
+    "annual_capex": 78.84519423131795,
+    "data_center_count": 346,
+    "global_regions": [
+      "South Korea",
+      "China",
+      "Taiwan",
+      "North America",
+      "Europe"
+    ],
+    "primary_region": "Europe",
+    "chip_procurement_volume": 1474339,
+    "cloud_market_share": 0.15607899160786345,
+    "ai_focus_level": 0.36977675028692103,
+    "risk_tolerance": 0.5855221277964001,
+    "geopolitical_stance": 0.8495984667056985,
+    "sustainability_commitment": 0.422136361428958,
+    "annual_revenue": 384.5021680097509,
+    "profit_margin": 0.29801077002085263,
+    "debt_to_equity": 0.19805881066556685,
+    "cash_reserves": 115.70768916365392,
+    "vertical_integration_level": 0.5408401961786842,
+    "innovation_investment_ratio": 0.12313893814637063,
+    "strategic_partnerships": [
+      "cloud_alliance"
+    ],
+    "competitive_advantages": [
+      "ai_expertise"
+    ]
+  },
+  {
+    "name": "Hyperscaler_7",
+    "size": "CompanySize.MEGA",
+    "annual_capex": 52.53842655196985,
+    "data_center_count": 342,
+    "global_regions": [
+      "Japan",
+      "Asia Pacific",
+      "Europe",
+      "South Korea",
+      "North America",
+      "China"
+    ],
+    "primary_region": "North America",
+    "chip_procurement_volume": 906619,
+    "cloud_market_share": 0.29471622387688967,
+    "ai_focus_level": 0.8632041275197976,
+    "risk_tolerance": 0.5622123531701165,
+    "geopolitical_stance": 0.5725800571967214,
+    "sustainability_commitment": 0.14203543390504592,
+    "annual_revenue": 323.4061715170036,
+    "profit_margin": 0.23990244215343876,
+    "debt_to_equity": 0.19684716469246097,
+    "cash_reserves": 48.23044889251972,
+    "vertical_integration_level": 0.5847333442490876,
+    "innovation_investment_ratio": 0.11010326328159935,
+    "strategic_partnerships": [
+      "sustainability",
+      "supply_chain"
+    ],
+    "competitive_advantages": [
+      "global_presence"
+    ]
+  },
+  {
+    "name": "Hyperscaler_8",
+    "size": "CompanySize.SMALL",
+    "annual_capex": 3.5530823753734015,
+    "data_center_count": 17,
+    "global_regions": [
+      "Europe",
+      "Asia Pacific"
+    ],
+    "primary_region": "Europe",
+    "chip_procurement_volume": 5070,
+    "cloud_market_share": 0.0069140019565015025,
+    "ai_focus_level": 0.2553367456903135,
+    "risk_tolerance": 0.33228360296549103,
+    "geopolitical_stance": 0.7615061683370733,
+    "sustainability_commitment": 0.6347514105798825,
+    "annual_revenue": 7.15567392458327,
+    "profit_margin": 0.22317023287798277,
+    "debt_to_equity": 0.76072412319253,
+    "cash_reserves": 9.47039017268909,
+    "vertical_integration_level": 0.359207944832431,
+    "innovation_investment_ratio": 0.148804045000632,
+    "strategic_partnerships": [
+      "ai_research"
+    ],
+    "competitive_advantages": [
+      "global_presence"
+    ]
+  },
+  {
+    "name": "Hyperscaler_9",
+    "size": "CompanySize.MEDIUM",
+    "annual_capex": 11.830067734163569,
+    "data_center_count": 26,
+    "global_regions": [
+      "South Korea",
+      "Japan",
+      "Asia Pacific"
+    ],
+    "primary_region": "North America",
+    "chip_procurement_volume": 35351,
+    "cloud_market_share": 0.0254158648386226,
+    "ai_focus_level": 0.8236729511278456,
+    "risk_tolerance": 0.18299953059154817,
+    "geopolitical_stance": 0.5783916980054802,
+    "sustainability_commitment": 0.4292845012307199,
+    "annual_revenue": 20.000657968644187,
+    "profit_margin": 0.21610880246878195,
+    "debt_to_equity": 0.7069816250468055,
+    "cash_reserves": 17.951334033953774,
+    "vertical_integration_level": 0.3281824408215868,
+    "innovation_investment_ratio": 0.12532746634115538,
+    "strategic_partnerships": [
+      "sustainability"
+    ],
+    "competitive_advantages": [
+      "global_presence"
+    ]
+  },
+  {
+    "name": "Hyperscaler_10",
+    "size": "CompanySize.MEDIUM",
+    "annual_capex": 5.832844111952596,
+    "data_center_count": 14,
+    "global_regions": [
+      "Taiwan",
+      "Japan"
+    ],
+    "primary_region": "China",
+    "chip_procurement_volume": 99112,
+    "cloud_market_share": 0.032148122093832034,
+    "ai_focus_level": 0.5749706493662965,
+    "risk_tolerance": 0.38905850500825,
+    "geopolitical_stance": 0.808013729839411,
+    "sustainability_commitment": 0.31860617959655774,
+    "annual_revenue": 45.21439874553667,
+    "profit_margin": 0.14733703873641574,
+    "debt_to_equity": 0.7353855944439824,
+    "cash_reserves": 18.776940317585318,
+    "vertical_integration_level": 0.7433869279649884,
+    "innovation_investment_ratio": 0.1646101237155992,
+    "strategic_partnerships": [
+      "supply_chain",
+      "cloud_alliance"
+    ],
+    "competitive_advantages": [
+      "global_presence",
+      "ecosystem_integration"
+    ]
+  }
+]
