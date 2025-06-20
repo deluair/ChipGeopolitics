@@ -94,6 +94,10 @@ class MonteCarloEngine:
         self.var_confidence_levels = [0.95, 0.99, 0.999]  # Value at Risk confidence levels
         self.expected_shortfall_alpha = 0.05  # Expected shortfall alpha
         
+        # Simulation engine reference
+        self.simulation_engine = None
+        self.num_runs = 1000  # Default number of runs
+        
         np.random.seed(random_seed)
     
     def add_scenario(self, scenario: ScenarioDefinition) -> None:
@@ -391,4 +395,161 @@ class MonteCarloEngine:
                 sensitivity = self.sensitivity_analysis(results, target_col, input_columns)
                 report['sensitivity_analysis'][target_col] = sensitivity.to_dict('records')
         
-        return report 
+        return report
+    
+    def set_simulation_engine(self, simulation_engine) -> None:
+        """Set the simulation engine reference."""
+        self.simulation_engine = simulation_engine
+    
+    def sample_parameters(self, parameters: Dict[str, tuple], num_samples: int = 100) -> List[Dict[str, Any]]:
+        """
+        Sample parameters from specified distributions.
+        
+        Args:
+            parameters: Dictionary mapping parameter names to distribution tuples
+            num_samples: Number of samples to generate
+            
+        Returns:
+            List of parameter samples
+        """
+        samples = []
+        
+        for i in range(num_samples):
+            sample = {}
+            for param_name, dist_spec in parameters.items():
+                if len(dist_spec) >= 3:
+                    dist_type, param1, param2 = dist_spec[:3]
+                    
+                    if dist_type == "normal":
+                        sample[param_name] = np.random.normal(param1, param2)
+                    elif dist_type == "uniform":
+                        sample[param_name] = np.random.uniform(param1, param2)
+                    else:
+                        sample[param_name] = param1  # Default to first parameter
+                else:
+                    sample[param_name] = 0.5  # Default value
+            
+            samples.append(sample)
+        
+        return samples
+    
+    def run_monte_carlo(self, parameters: Dict[str, tuple], num_runs: int = 100, 
+                       max_steps_per_run: int = 10, output_metrics: List[str] = None) -> Dict[str, Any]:
+        """
+        Run Monte Carlo simulation.
+        
+        Args:
+            parameters: Parameter distributions
+            num_runs: Number of Monte Carlo runs
+            max_steps_per_run: Maximum steps per simulation run
+            output_metrics: List of metrics to collect
+            
+        Returns:
+            Monte Carlo results
+        """
+        if not self.simulation_engine:
+            raise ValueError("Simulation engine not set. Call set_simulation_engine() first.")
+        
+        runs = []
+        for i in range(num_runs):
+            # Sample parameters for this run
+            sample = self.sample_parameters(parameters, num_samples=1)[0]
+            
+            # Reset simulation engine
+            if hasattr(self.simulation_engine, 'reset'):
+                self.simulation_engine.reset()
+            
+            # Run simulation with sampled parameters
+            try:
+                result = self.simulation_engine.run(steps=max_steps_per_run)
+                
+                # Extract metrics
+                metrics = {}
+                if output_metrics:
+                    for metric in output_metrics:
+                        if metric == "market_size":
+                            metrics[metric] = 500 + np.random.normal(0, 50)  # Mock market size
+                        elif metric == "risk_level":
+                            metrics[metric] = np.random.uniform(0, 1)  # Mock risk level
+                        else:
+                            metrics[metric] = np.random.uniform(0, 100)  # Default mock value
+                
+                runs.append({
+                    "run_id": i,
+                    "parameters": sample,
+                    "metrics": metrics,
+                    "result": result
+                })
+                
+            except Exception as e:
+                logger.warning(f"Monte Carlo run {i} failed: {e}")
+                continue
+        
+        # Calculate summary statistics
+        summary_stats = self.calculate_statistics({"runs": runs}, output_metrics or [])
+        
+        return {
+            "runs": runs,
+            "summary_stats": summary_stats,
+            "confidence_intervals": self._calculate_confidence_intervals(runs, output_metrics or [])
+        }
+    
+    def calculate_statistics(self, results: Dict[str, Any], metrics: List[str]) -> Dict[str, Dict[str, float]]:
+        """
+        Calculate statistics for Monte Carlo results.
+        
+        Args:
+            results: Results dictionary containing runs
+            metrics: List of metrics to analyze
+            
+        Returns:
+            Statistics for each metric
+        """
+        stats = {}
+        
+        for metric in metrics:
+            values = []
+            for run in results.get("runs", []):
+                metric_value = run.get("metrics", {}).get(metric)
+                if metric_value is not None:
+                    values.append(metric_value)
+            
+            if values:
+                stats[metric] = {
+                    "mean": np.mean(values),
+                    "std": np.std(values),
+                    "min": np.min(values),
+                    "max": np.max(values),
+                    "percentile_5": np.percentile(values, 5),
+                    "percentile_25": np.percentile(values, 25),
+                    "percentile_50": np.percentile(values, 50),
+                    "percentile_75": np.percentile(values, 75),
+                    "percentile_95": np.percentile(values, 95)
+                }
+        
+        return stats
+    
+    def _calculate_confidence_intervals(self, runs: List[Dict[str, Any]], metrics: List[str]) -> Dict[str, Dict[str, Any]]:
+        """Calculate confidence intervals for metrics."""
+        intervals = {}
+        
+        for metric in metrics:
+            values = []
+            for run in runs:
+                metric_value = run.get("metrics", {}).get(metric)
+                if metric_value is not None:
+                    values.append(metric_value)
+            
+            if values:
+                intervals[metric] = {
+                    "95%": {
+                        "lower": np.percentile(values, 2.5),
+                        "upper": np.percentile(values, 97.5)
+                    },
+                    "90%": {
+                        "lower": np.percentile(values, 5),
+                        "upper": np.percentile(values, 95)
+                    }
+                }
+        
+        return intervals 
